@@ -1,0 +1,31 @@
+key = value
+second = third
+foo = bar
+f1 = 51
+f2 = 52
+foobar = baz
+baz = quux
+this = is=a=test
+baz = quux
+f1 = 51
+f2 = 52
+foo = bar
+foobar = baz
+key = value
+second = third
+this = is=a=test
+a = value
+b = value
+a = value
+b = value
+key = value
+$Id:: key not found
+test2.in,v: key not found
+1.1: key not found
+2010-02-09: key not found
+20:31:28-08: key not found
+-: key not found
+-: key not found
+$: key not found
+deleting
+end of deleting

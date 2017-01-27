@@ -1,0 +1,14 @@
+g++ -g -O0 -Wall -Wextra -std=gnu++11 -c graphics.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++11 -o gdraw debug.o graphics.o interp.o rgbcolor.o shape.o util.o main.o -lGL -lGLU -lglut -lm
+checksource debug.h graphics.h interp.h rgbcolor.h shape.h util.h util.tcc debug.cpp graphics.cpp interp.cpp rgbcolor.cpp shape.cpp util.cpp main.cpp Makefile README mk-colors.perl
+checksource: improper character \x09 = ^I (tab)
+   file "graphics.cpp": 19 errors: lines 19--25, 85--85, 89--89, 93--93, 
+        97--97, 104--105, 167
+   file "graphics.h": 2 errors: lines 69--70
+checksource: line length > 72 characters
+   file "graphics.cpp": 7 errors: lines 22--25, 30, 104, 165
+   file "interp.cpp": 5 errors: lines 142, 157--159, 168
+   file "shape.cpp": 7 errors: lines 73, 77, 130, 142, 146, 150, 154
+   file "shape.h": 7 errors: lines 119, 125, 131, 137, 143, 149, 155
+checksource: TOTAL COMPLAINTS: 47
+gmake: [all] Error 1 (ignored)

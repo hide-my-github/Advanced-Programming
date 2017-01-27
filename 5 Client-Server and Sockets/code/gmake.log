@@ -1,0 +1,2 @@
+g++ -g -O0 -Wall -Wextra -std=gnu++11 -c cixd.cpp
+g++ -g -O0 -Wall -Wextra -std=gnu++11 -o cixd cixd.o sockets.o protocol.o

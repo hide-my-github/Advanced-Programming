@@ -1,0 +1,6 @@
+partnercheck: ./PARTNER: format OK:
+user    = jtshih
+uid     = 202831
+gecos   = Josh Tsung Chi Shih
+home    = /afs/cats.ucsc.edu/users/b/jtshih
+shell   = /bin/bash

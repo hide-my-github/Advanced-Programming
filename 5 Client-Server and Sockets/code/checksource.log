@@ -1,0 +1,8 @@
+checksource: improper character \x09 = ^I (tab)
+   file "cix.cpp": 4 errors: lines 110--111
+   file "cixd.cpp": 8 errors: lines 68--72
+checksource: line length > 144 characters
+   file "HEADER.html": 1 errors: line 15
+checksource: line length > 72 characters
+   file "HEADER.html": 2 errors: lines 15--16
+checksource: TOTAL COMPLAINTS: 15

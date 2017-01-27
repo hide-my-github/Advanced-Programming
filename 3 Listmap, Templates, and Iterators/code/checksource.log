@@ -1,0 +1,5 @@
+checksource: improper character \x09 = ^I (tab)
+   file "main.cpp": 2 errors: lines 50--50
+checksource: line length > 72 characters
+   file "main.cpp": 2 errors: lines 61, 83
+checksource: TOTAL COMPLAINTS: 4
